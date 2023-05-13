@@ -1,234 +1,250 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="../css/bootstrap.min.css" />
-    <link rel="stylesheet" href="../css/style.css" />
-    <script src="../js/bootstrap.bundle.min.js"></script>
-    <title>IFCE-Instituto Federal do Ceará-Cursos</title>
-  </head>
-  <body>
-    <header>
-      <!-- Menu de navegação -->
-      <nav class="navbar navbar-expand-lg bg-body-">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="../index.html"><h1>IFCE</h1><h5>MINISTÉRIO DA EDUCAÇÃO</h5></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="../pages/campus.html">Campus</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="../pages/cursos.html">Cursos</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="../pages/vestibular.html">Vestibular</a>
-              </li>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="../css/bootstrap.min.css" />
+  <link rel="stylesheet" href="../css/style.css" />
+  <script src="../js/bootstrap.bundle.min.js"></script>
+  <title>IFCE-Instituto Federal do Ceará-Cursos</title>
+</head>
+
+<body>
+  <header>
+    <!-- Menu de navegação -->
+    <nav class="navbar navbar-expand-lg bg-body-">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="../index.html">
+          <h1>IFCE</h1>
+          <h5>MINISTÉRIO DA EDUCAÇÃO</h5>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="../pages/campus.html">Campus</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../pages/cursos.html">Cursos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../pages/vestibular.html">Vestibular</a>
+            </li>
             <li class="nav-item">
               <a class="nav-link" href="../pages/inscricoes.html">Inscrições</a>
             </li>
           </ul>
-            <form class="d-flex" role="search">
-              <input class="form-control me-2" type="search" placeholder="Pesquisa" aria-label="Search">
-              <button class="btn btn-outline-success" type="submit">Pesquisar</button>
-            </form>
-          </div>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Pesquisa" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Pesquisar</button>
+          </form>
         </div>
-      </nav>
-    </header>
+      </div>
+    </nav>
+  </header>
 
-    <main>
-      
-      <div class="container-fluid">
-        <div class="row">
-          <div>
-            <div class="col-xs-12 col-sm-12">
-              <h1>Formulario de Inscrição</h1>
+  <main>
+
+    <div class="container-fluid">
+      <div class="row">
+        <div>
+          <div class="col-xs-12 col-sm-12">
+            <h1>Formulario de Inscrição</h1>
           </div>
           <form id="form" class="col-xs-12 col-sm-12 needs-validation was-validated " novalidate>
-              <div class="input-group col-xs-12 col-sm-12">
-                  <!--Preenchimento  do nome -->
-                  <label for="validationDefault01" class="form-label"></label>
-                  <input type="text" id="validationDefault01" class="form-control" placeholder="Nome Completo" required>
-                  <div class="valid-feedback">
-                      valido
-                  </div>
-                  <div class="invalid-feedback">
-                      Tente novamente
-                  </div>
+            <div class="input-group col-xs-12 col-sm-12">
+              <!--Preenchimento  do nome -->
+              <label for="validationDefault01" class="form-label"></label>
+              <input type="text" id="validationDefault01" class="form-control" placeholder="Nome Completo" required>
+              <div class="valid-feedback">
+                valido
               </div>
-              <!-- Seletor para CPF -->
-              <div class="col-xs-12 col-sm-6">
-                  <input type="text" id="nome" class="form-control" placeholder="CPF" required>
-                  <div class="valid-feedback">
-                      valido
-                  </div>
-                  <div class="invalid-feedback">
-                      CPF invalido
-                  </div>
+              <div class="invalid-feedback">
+                Tente novamente
               </div>
-              <!-- Seletor de Genero -->
-              <div class="form-check col-xs-12 col-sm-12">
-                  <input type="radio" class="form-check-input" id="validationFormCheck2" name="radio-stacked"
-                      required>
-                  <label class="form-check-label" for="validationFormCheck2">Homen</label>
-                  <div class="invalid-feedback">
-                      invalido
-                  </div>
+            </div>
+            <!-- Seletor para CPF -->
+            <div class="col-xs-12 col-sm-6">
+              <input type="text" id="nome" class="form-control" placeholder="CPF" required>
+              <div class="valid-feedback">
+                valido
               </div>
-              <div class="form-check mb-3">
-                  <input type="radio" class="form-check-input" id="validationFormCheck3" name="radio-stacked"
-                      required>
-                  <label class="form-check-label" for="validationFormCheck3">Mulher</label>
-                  <div class="invalid-feedback">More example invalid feedback text</div>
+              <div class="invalid-feedback">
+                CPF invalido
               </div>
-              <!--Seletor de data nascimento  -->
-              <div class="col-xs-12 col-sm-4">
-                  <label for="birthday">Data de Nascimento:</label>
-                  <input class="form-control" type="date" id="birthday" name="birthday">
+            </div>
+            <!-- Seletor de Genero -->
+            <div class="form-check col-xs-12 col-sm-12">
+              <input type="radio" class="form-check-input" id="validationFormCheck2" name="radio-stacked" required>
+              <label class="form-check-label" for="validationFormCheck2">Homen</label>
+              <div class="invalid-feedback">
+                invalido
               </div>
-              <!-- Seletor do Estado -->
+            </div>
+            <div class="form-check mb-3">
+              <input type="radio" class="form-check-input" id="validationFormCheck3" name="radio-stacked" required>
+              <label class="form-check-label" for="validationFormCheck3">Mulher</label>
+              <div class="invalid-feedback">More example invalid feedback text</div>
+            </div>
+            <!--Seletor de data nascimento  -->
+            <div class="col-xs-12 col-sm-4">
+              <label for="birthday">Data de Nascimento:</label>
+              <input class="form-control" type="date" id="birthday" name="birthday">
+            </div>
+            <!-- Seletor do Estado -->
+            <div class="col-xs-12 col-sm-12">
+              <div class="sm-12">
+                <label for="inputSelect" class="form-label">Estado de Nascimento</label>
+                <select class="form-select" id="inputSelect" placeholder="Selecione um Estado">
+                  <option value="1">Brasilia</option>
+                  <option value="2">Goiás</option>
+                  <option value="3">Rio de Janeiro</option>
+                  <option value="4">São Paulo</option>
+                  <option selected value="5">Opções</option>
+                </select>
+              </div>
+              <!--seletor cidade de nascimento-->
               <div class="col-xs-12 col-sm-12">
-                  <div class="sm-12">
-                      <label for="inputSelect" class="form-label">Estado de Nascimento</label>
-                      <select class="form-select" id="inputSelect" placeholder="Selecione um Estado">
-                          <option value="1">Brasilia</option>
-                          <option value="2">Goiás</option>
-                          <option value="3">Rio de Janeiro</option>
-                          <option value="4">São Paulo</option>
-                          <option selected value="5">Opções</option>
-                      </select>
+                <div class="mb-3">
+                  <label for="inputSelect" class="form-label">Cidade de Nascimento</label>
+                  <select class="form-select" id="inputSelect" placeholder="Selecione uma cidade">
+                    <option value="1">Brasilia</option>
+                    <option value="2">Goiânia</option>
+                    <option value="3">Rio de Janeiro</option>
+                    <option value="4">São Paulo</option>
+                    <option selected value="5">Opções</option>
+                  </select>
+                </div>
+                <!-- Seletores de estatos civil -->
+                <div class="form-check col-xs-12 col-sm-12">
+                  <input type="radio" class="form-check-input" id="validationFormCheck2" name="radio-stacked" required>
+                  <label class="form-check-label" for="validationFormCheck2">Solteiro</label>
+                </div>
+                <div class="form-check col-xs-12 col-sm-12">
+                  <input type="radio" class="form-check-input" id="validationFormCheck3" name="radio-stacked" required>
+                  <label class="form-check-label" for="validationFormCheck3">Casado </label>
+                </div>
+                <div class="form-check col-xs-12 col-sm-12">
+                  <input type="radio" class="form-check-input" id="validationFormCheck3" name="radio-stacked" required>
+                  <label class="form-check-label" for="validationFormCheck3">Divorciado</label>
+                </div>
+                <div class="invalid-feedback">More example invalid feedback text</div>
+              </div>
+              <!-- Seletor de telefone -->
+              <div class="col-xs-12 col-sm-5">
+                <label for="phone">Insira o seu numero com DDD:</label>
+                <input type="tel" id="phone" class="form-control" placeholder="EX: (DDD) 91234-5678" name="phone"
+                  pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" aceholder="Nome Completo">
+              </div>
+              <!-- Seletor de endereço -->
+              <div class="col-xs-12 col-mb-3">
+                <label for="CEP">CEP:
+                  <input name="CEP" id="CEP" class="form-control" placeholder="CEP" required pattern="\d{5}-\d{3}" />
+                </label>
+                <input type="submit" class="btn btn-primary value=" consultar" />
+              </div><br>
+              <!-- Seletor de endereço complemento ender -->
+              <div class="col-xs-12 col-mb-3">
+                <input type="text" id="nome" class="form-control" placeholder="Endereço"><br>
+              </div>
+              <!-- seletor de endereço complemento -->
+              <div class="col-xs-12 col-mb-3">
+                <input type="text" id="nome" class="form-control" placeholder="Complemento">
+              </div>
+              <!-- Seletor de numero da rua -->
+              <div class="col-xs-12 col-sm-1">
+                <label for="Numero">Numero:
+                  <input name="CEP" id="CEP" class="form-control" placeholder="N°" required pattern="\d{5}-\d{3}" />
+                </label>
+              </div>
+              <!-- seletor de envio de documento -->
+              <div class="mb-3">
+                <h6>Anexar RG/CPF</h6>
+                <input type="file" class="form-control" aria-label="file example" required>
+                <div class="invalid-feedback">Insira os documentos necessarios</div>
+              </div>
+              <!-- Seletor de envio de documento residencia -->
+              <div class="mb-3">
+                <h6>Anexar comprovante de residencia</h6>
+                <input type="file" class="form-control" aria-label="file example" required>
+                <div class="invalid-feedback">Insira os documentos necessarios</div>
+              </div>
+              <!-- seletor de envio de documento escolaridade -->
+              <div class="mb-3">
+                <h6>Anexar comprovante de Escolaridade</h6>
+                <input type="file" class="form-control" aria-label="file example" required>
+                <div class="invalid-feedback">Insira os documentos necessarios</div>
+              </div>
+              <!-- Seletor de e-mail -->
+              <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Endereço de e-mail</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nome@example.com">
+              </div>
+              <!-- Seletor de criação de senha -->
+              <div class="row g-3 align-items-center">
+                <div class="col-auto">
+                  <label for="inputPassword6" class="col-form-label">Senha</label>
+                </div>
+                <div class="col-auto">
+                  <input type="password" id="inputPassword6" class="form-control" aria-labelledby="passwordHelpInline">
+                </div>
+                <div class="col-auto">
+                  <span id="passwordHelpInline" class="form-text">
+                    Deve ter entre 8 e 20 caracteres.
+                  </span>
+                </div>
+              </div><br>
+              <!-- Confirmação de senha -->
+              <div class="row g-3 align-items-center">
+                <div class="col-auto">
+                  <label for="inputPassword6" class="col-form-label">Repita</label>
+                </div>
+                <div class="col-auto">
+                  <input type="password" id="inputPassword6" class="form-control" aria-labelledby="passwordHelpInline">
+                </div>
+                <!-- Check box de Confirmação -->
+                <div class="form-group">
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                    <label class="form-check-label" for="invalidCheck">
+                      Concordo com os termos e condições
+                    </label>
+                    <div class="invalid-feedback">
+                      Você deve concordar, antes de continuar.
+                    </div>
                   </div>
-                  <!--seletor cidade de nascimento-->
-                  <div class="col-xs-12 col-sm-12">
-                      <div class="mb-3">
-                          <label for="inputSelect" class="form-label">Cidade de Nascimento</label>
-                          <select class="form-select" id="inputSelect" placeholder="Selecione uma cidade">
-                              <option value="1">Brasilia</option>
-                              <option value="2">Goiânia</option>
-                              <option value="3">Rio de Janeiro</option>
-                              <option value="4">São Paulo</option>
-                              <option selected value="5">Opções</option>
-                          </select>
-                      </div>
-                      <!-- Seletores de estatos civil -->
-                      <div class="form-check col-xs-12 col-sm-12">
-                          <input type="radio" class="form-check-input" id="validationFormCheck2"
-                              name="radio-stacked" required>
-                          <label class="form-check-label" for="validationFormCheck2">Solteiro</label>
-                      </div>
-                      <div class="form-check col-xs-12 col-sm-12">
-                          <input type="radio" class="form-check-input" id="validationFormCheck3"
-                              name="radio-stacked" required>
-                          <label class="form-check-label" for="validationFormCheck3">Casado </label>
-                      </div>
-                      <div class="form-check col-xs-12 col-sm-12">
-                          <input type="radio" class="form-check-input" id="validationFormCheck3"
-                              name="radio-stacked" required>
-                          <label class="form-check-label" for="validationFormCheck3">Divorciado</label>
-                      </div>
-                      <div class="invalid-feedback">More example invalid feedback text</div>
-                  </div>
-                  <!-- Seletor de telefone -->
-                  <div class="col-xs-12 col-sm-5">
-                      <label for="phone">Insira o seu numero com DDD:</label>
-                      <input type="tel" id="phone" class="form-control" placeholder="EX: (DDD) 91234-5678"
-                          name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" aceholder="Nome Completo">
-                  </div>
-                  <!-- Seletor de endereço -->
-                  <div class="col-xs-12 col-mb-3">
-                      <label for="CEP">CEP:
-                          <input name="CEP" id="CEP" class="form-control" placeholder="CEP" required
-                              pattern="\d{5}-\d{3}" />
-                      </label>
-                      <input type="submit" class="btn btn-primary value=" consultar" />
-                  </div>
-                  <!-- Seletor de endereço complemento ender -->
-                  <div class="col-xs-12 col-mb-3">
-                      <input type="text" id="nome" class="form-control" placeholder="Endereço">
-                  </div>
-                  <!-- seletor de endereço complemento -->
-                  <div class="col-xs-12 col-mb-3">
-                      <input type="text" id="nome" class="form-control" placeholder="Complemento">
-                  </div>
-                  <!-- Seletor de numero da rua -->
-                  <div class="col-xs-12 col-sm-1">
-                      <label for="Numero">Numero:
-                          <input name="CEP" id="CEP" class="form-control" placeholder="N°" required
-                              pattern="\d{5}-\d{3}" />
-                      </label>
-                  </div>
-                  <!-- Seletor de e-mail -->
-                  <div class="mb-3">
-                      <label for="exampleFormControlInput1" class="form-label">Endereço de e-mail</label>
-                      <input type="email" class="form-control" id="exampleFormControlInput1"
-                          placeholder="nome@example.com">
-                  </div>
-                  <!-- Seletor de criação de senha -->
-                  <div class="row g-3 align-items-center">
-                      <div class="col-auto">
-                          <label for="inputPassword6" class="col-form-label">Senha</label>
-                      </div>
-                      <div class="col-auto">
-                          <input type="password" id="inputPassword6" class="form-control"
-                              aria-labelledby="passwordHelpInline">
-                      </div>
-                      <div class="col-auto">
-                          <span id="passwordHelpInline" class="form-text">
-                              Deve ter entre 8 e 20 caracteres.
-                          </span>
-                      </div>
-                  </div>
-                  <!-- Confirmação de senha -->
-                  <div class="row g-3 align-items-center">
-                      <div class="col-auto">
-                          <label for="inputPassword6" class="col-form-label">Repita</label>
-                      </div>
-                      <div class="col-auto">
-                          <input type="password" id="inputPassword6" class="form-control"
-                              aria-labelledby="passwordHelpInline">
-                      </div>
-                      <!-- Check box de Confirmação -->
-                      <div class="form-group">
-                          <div class="form-check">
-                              <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
-                              <label class="form-check-label" for="invalidCheck">
-                                  Concordo com os termos e condições
-                              </label>
-                              <div class="invalid-feedback">
-                                  Você deve concordar, antes de continuar.
-                              </div>
-                          </div>
-                      </div>
-                      <!-- botão de enviar -->
-                      <div>
-                          <button type="submit" class="btn btn-primary">ENVIAR</button>
-                      </div>
+                </div>
+                <!-- botão de enviar -->
+                <div>
+                  <button type="submit" class="btn btn-primary">ENVIAR</button><br><br>
+                </div>
           </form>
-          </div>
         </div>
       </div>
-    </main>
+    </div>
+  </main>
 
-    <footer style="text-align:center">
-      <div>
-        <strong>Endereço</strong>: Rua Estevão Remígio de Freitas,<br> 1145 - Monsenhor Otávio, Limoeiro do Norte - <br> CE, 62930-000
-      </div>
+  <footer style="text-align:center">
+    <div>
+      <strong>Endereço</strong>: Rua Estevão Remígio de Freitas,<br> 1145 - Monsenhor Otávio, Limoeiro do Norte - <br>
+      CE, 62930-000
+    </div>
 
-      <div>
-        <strong>REITOR</strong>:José Wally Mendonça Menezes <br>
-        Fone: (85) 3401.2302 <br>
-        E-mail: wally@ifce.edu.br
-      </div>
-      <div>
-        <strong>Criador:</strong>Ramon Silva <br>
-        <strong>&copy;todos os direitos reservados</strong>
-      </div>
-    </footer>
-  </body>
+    <div>
+      <strong>REITOR</strong>:José Wally Mendonça Menezes <br>
+      Fone: (85) 3401.2302 <br>
+      E-mail: wally@ifce.edu.br
+    </div>
+    <div>
+      <strong>Criador:</strong>Ramon Silva <br>
+      <strong>&copy;todos os direitos reservados</strong>
+    </div>
+  </footer>
+</body>
+
 </html>
