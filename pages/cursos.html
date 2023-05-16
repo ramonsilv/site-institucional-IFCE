@@ -1,285 +1,459 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/bootstrap.min.css" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <script src="../js/bootstrap.bundle.min.js"></script>
+    <title>IFCE-Instituto Federal do Ceará-Cursos</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="../css/bootstrap.min.css" />
-  <link rel="stylesheet" href="../css/style.css" />
-  <script src="../js/bootstrap.bundle.min.js"></script>
-  <title>IFCE-Instituto Federal do Ceará-Cursos</title>
-</head>
+  <body>
+    <header>
+      <!--Menu de navegação-->
+      <nav class="navbar navbar-expand-lg bg-body-">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="../index.html">
+            <h1>IFCE</h1>
+            <h5>MINISTÉRIO DA EDUCAÇÃO</h5>
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="../pages/campus.html"
+                  >Campus</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../pages/cursos.html">Cursos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../pages/vestibular.html"
+                  >Vestibular</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../pages/inscricoes.html"
+                  >Inscrições</a
+                >
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Pesquisa"
+                aria-label="Search"
+              />
+              <button class="btn btn-outline-success" type="submit">
+                Pesquisar
+              </button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
 
-<body>
-  <header>
-    <!--Menu de navegação-->
-    <nav class="navbar navbar-expand-lg bg-body-">
+    <main>
+      <!-- corpo do site -->
       <div class="container-fluid">
-        <a class="navbar-brand" href="../index.html">
-          <h1>IFCE</h1>
-          <h5>MINISTÉRIO DA EDUCAÇÃO</h5>
-        </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="../pages/campus.html">Campus</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="../pages/cursos.html">Cursos</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="../pages/vestibular.html">Vestibular</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="../pages/inscricoes.html">Inscrições</a>
-            </li>
-          </ul>
-          <form class="d-flex" role="search">
-            <input class="form-control me-2" type="search" placeholder="Pesquisa" aria-label="Search">
-            <button class="btn btn-outline-success" type="submit">Pesquisar</button>
-          </form>
+        <div class="row">
+          <!-- informaçoes do site-#01 accordion -->
+          <h1>Nossos Cursos</h1>
+          <br><br>
+          <div class="accordion" id="accordionPanelsStayOpenExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#panelsStayOpen-collapseOne"
+                  aria-expanded="true"
+                  aria-controls="panelsStayOpen-collapseOne"
+                >
+                  CURSOS TECNICOS
+                </button>
+              </h2>
+              <div
+                id="panelsStayOpen-collapseOne"
+                class="accordion-collapse collapse show"
+              >
+                <div class="accordion-body">
+                  <h4><strong>Técnicos concomitantes</strong></h4>
+                  <br />
+                  Esta modalidade de curso destina-se a estudantes que
+                  concluíram o Ensino Fundamental, sendo ofertados a quem está
+                  cursando o Ensino Médio tradicional e que no contra turno irá
+                  cursar o ensino técnico no Instituto Federal. Este estudante
+                  só receberá o diploma de técnico mediante a apresentação do
+                  certificado de conclusão do Ensino Médio. <br />
+                  <br />
+                  <strong>Agronegócio:</strong>
+                  <a
+                    href="http://ifce.edu.br/taua/campus_taua/cursos/tecnicos/concomitante/agronegocio"
+                    >Tauá</a
+                  ><br />
+                  <strong>Agropecuária:</strong> Limoeiro do Norte
+                  <br />
+                  <strong>Automação Industrial:</strong>
+                  <a
+                    href="http://ifce.edu.br/maracanau/menu/cursos/tecnicos/concomitante/Automacao"
+                    >Maracanaú</a
+                  >
+                  <br />
+                  <strong>Edificações:</strong>
+                  <a
+                    href="http://ifce.edu.br/menu-de-relevancia/nossos-cursos1/resolveuid/efdb8ae0d99d4ae99cff3fb9d264195a"
+                    >Crateús</a
+                  >,
+                  <a
+                    href="http://ifce.edu.br/menu-de-relevancia/nossos-cursos1/resolveuid/b3cdec6d82b34a6982767804bc5e3d1f"
+                    >Morada Nova</a
+                  >
+                  e
+                  <a
+                    href="http://ifce.edu.br/menu-de-relevancia/nossos-cursos1/resolveuid/e49faaed5ff945a6b0e1d3a21dfbe9be"
+                    >Quixadá</a
+                  >
+                  <br />
+                  <strong>Eletrotécnica:</strong>
+                  <a
+                    href="http://ifce.edu.br/cedro/campus_cedro/cursos/tecnicos/concomitante/eletrotecnica"
+                    >Cedro</a
+                  >(Presencial e EaD)<br />
+                  <strong>Eletroeletrônica:</strong>Limoeiro do Norte e
+                  Caucaia<br />
+                  <br />
+                  <h4><strong>Técnicos integrados</strong></h4>
+                  <br />
+                  A modalidade de ensino integrado é aquela em que o aluno cursa
+                  o ensino médio e o técnico ao mesmo tempo no IFCE. <br />
+                  <br />
+                  <strong>Agroindústria: </strong>Iguatu <br />
+                  <strong>Agropecuária: </strong>Crato, Iguatu Tauá e
+                  <a
+                    href="http://ifce.edu.br/umirim/campus_umirim/cursos/tecnicos/integrados/tecnicointegradoagropecuaria"
+                    >Umirim</a
+                  >
+                  <br />
+                  <strong>Edificações: </strong>Edificações: Itapipoca, Juazeiro
+                  do Norte,
+                  <a
+                    href="http://ifce.edu.br/fortaleza/menu/cursos/tecnicos/integrados/edicacoes"
+                  >
+                    Fortaleza</a
+                  >
+                  e
+                  <a
+                    href="https://ifce.edu.br/quixada/campus_quixada/copy_of_cursos-ifce-campus-de-quixada"
+                    >Quixadá</a
+                  >
+                  <br />
+                  <strong> Eletroeletrônica: </strong>Caucaia e Jaguaribe <br />
+                  <strong> Eletrotécnica: </strong>
+                  <a
+                    href="http://ifce.edu.br/cedro/campus_cedro/cursos/tecnicos/integrados/eletrotecnica"
+                    >Cedro</a
+                  >, Juazeiro do Norte e
+                  <a
+                    href="http://ifce.edu.br/fortaleza/menu/cursos/tecnicos/integrados/eletrotecnica"
+                  >
+                    Fortaleza</a
+                  >
+                  <br />
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#panelsStayOpen-collapseTwo"
+                  aria-expanded="false"
+                  aria-controls="panelsStayOpen-collapseTwo"
+                >
+                  Cursos Superiores
+                </button>
+              </h2>
+              <div
+                id="panelsStayOpen-collapseTwo"
+                class="accordion-collapse collapse"
+              >
+                <div class="accordion-body">
+                  <h4><strong>Licenciaturas</strong></h4>
+                  <br />
+                  Destinado a estudantes que concluíram o ensino médio (antigo
+                  segundo grau). São cursos de graduação específicos para a
+                  formação de docentes. <br /><br />
+                  <strong>Artes Visuais: </strong
+                  ><a
+                    href="https://ifce.edu.br/fortaleza/cursos/superiores/licenciatura/artes-visuais"
+                    >Fortaleza</a
+                  ><br />
+                  <strong>Ciências Biológicas: </strong
+                  ><a href="https://ifce.edu.br/acarau">Acaraú</a>,
+                  <a
+                    href="https://ifce.edu.br/acopiara/menu/cursos/superiores/licenciatura/biologia"
+                    >Acopiara</a
+                  >,
+                  <a
+                    href="https://ifce.edu.br/menu-de-relevancia/nossos-cursos1/resolveuid/a64866ae13494ea5b245fcd0a0446566"
+                    >Jaguaribe</a
+                  >
+                  e
+                  <a
+                    href="https://ifce.edu.br/paracuru/campus_paracuru/cursos/superiores/licenciatura/biologia"
+                  ></a
+                  >Paracuru<br />
+                  <strong>Educação Física: </strong
+                  ><a
+                    href="https://ifce.edu.br/menu-de-relevancia/nossos-cursos1/resolveuid/fd5c29c89bd74397be472268c093980f"
+                    >Canindé</a
+                  >,
+                  <a
+                    href="https://ifce.edu.br/juazeirodonorte/campus_juazeiro/cursos"
+                    >Juazeiro do Norte</a
+                  >
+                  e
+                  <a href="https://ifce.edu.br/limoeirodonorte"
+                    >Limoeiro do Norte</a
+                  >
+                  <br />
+                  <strong
+                    >Educação Profissional Científica e Tecnológica:</strong
+                  ><a href="https://ifce.edu.br/fortaleza/cursos"
+                    >Fortaleza (EaD)</a
+                  >
+                  <br />
+                  <strong>Física: </strong
+                  ><a href="https://ifce.edu.br/acarau/menu/cursos">Acaraú</a>,
+                  Cedro,
+                  <a
+                    href="https://ifce.edu.br/menu-de-relevancia/nossos-cursos1/resolveuid/5fb31a8802c34d3594b2f4be9142f55c"
+                    >Crateús</a
+                  >
+                  <a
+                    href="https://ifce.edu.br/fortaleza/cursos/superiores/licenciatura/fisica"
+                    >Fortaleza</a
+                  >
+                  <a
+                    href="https://ifce.edu.br/horizonte/campus_horizonte/cursos/superiores/licenciatura/fisica"
+                    >Horizonte,</a
+                  >, Itapipoca, Maranguape,
+                  <a
+                    href="https://ifce.edu.br/menu-de-relevancia/nossos-cursos1/resolveuid/22fa364c66f247fa9f790df564d8faa4"
+                    >Sobral</a
+                  >
+                  e
+                  <a
+                    href="https://ifce.edu.br/tiangua/campus_tiangua/cursos/superiores/licenciatura/Fisica"
+                    >Tianguá</a
+                  ><br />
+                  <strong>Geografia: </strong
+                  ><a
+                    href="https://ifce.edu.br/crateus/menu/cursos/superiores/licenciatura/geografia"
+                    >Crateús</a
+                  >,
+                  <a
+                    href="https://ifce.edu.br/iguatu/menu/cursos/superiores/licenciatura/licenciatura-em-geografia"
+                    >Iguatu</a
+                  >
+                  e
+                  <a
+                    href="https://ifce.edu.br/quixada/campus_quixada/cursos/geografia"
+                    >Quixadá</a
+                  ><br />
+                  <br />
+                  <h4><strong>Tecnologias</strong></h4>
+                  <br />
+                  Cursos tecnológicos formam profissionais para atender a campos
+                  específicos do mercado de trabalho. Têm duração média menor
+                  que a dos cursos de graduação tradicionais. <br />
+                  <br />
+                  <strong>Agroindústria: </strong
+                  ><a href="https://ifce.edu.br/ubajara/Agroindustria"
+                    >Ubajara</a
+                  ><br />
+                  <strong>Agronegócio: </strong
+                  ><a
+                    href="https://ifce.edu.br/limoeirodonorte/campus_limoeiro/cursos"
+                    >Limoeiro do Norte</a
+                  >
+                  e
+                  <a
+                    href="https://ifce.edu.br/quixada/campus_quixada/cursos/agronegocio"
+                    >Quixadá</a
+                  ><br />
+                  <strong>Alimentos: </strong
+                  ><a href="https://ifce.edu.br/sobral/campus-sobral/cursos"
+                    >Limoeiro do Norte</a
+                  >
+                  e
+                  <a
+                    href="https://ifce.edu.br/menu-de-relevancia/nossos-cursos1/resolveuid/731a4d9de5d946ac924beeb9167b0e1d"
+                    >Sobral</a
+                  ><br />
+                  <strong>Análise e Desenvolvimento de Sistemas: </strong
+                  ><a href="https://ifce.edu.br/caninde">Canindé</a><br />
+                  <strong>Automação Industrial: </strong
+                  ><a
+                    href="https://ifce.edu.br/juazeirodonorte/campus_juazeiro/cursos"
+                    >Juazeiro do Norte</a
+                  ><br />
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#panelsStayOpen-collapseThree"
+                  aria-expanded="false"
+                  aria-controls="panelsStayOpen-collapseThree"
+                >
+                  Cursos de Pós-graduação
+                </button>
+              </h2>
+              <div
+                id="panelsStayOpen-collapseThree"
+                class="accordion-collapse collapse"
+              >
+                <div class="accordion-body">
+                  <h5><strong>Apresentação</strong></h5>
+                  <br />
+                  O IFCE oferece cursos de pós-graduação nas modalidades lato
+                  sensu e stricto sensu. Conheça mais sobre cada uma delas:
+                  <br />
+                  <br />
+                  <strong>Lato Sensu</strong><br />
+                  <br />
+                  Os cursos de pós-graduação lato sensu são destinados a
+                  portadores de diplomas de graduação e que desejam obter
+                  atualização acadêmica ou profissional e o consequente
+                  progresso das competências obtidas na graduação. No IFCE, essa
+                  modalidade contempla os cursos de especialização e de
+                  aperfeiçoamento.<br /><br />
+                  <strong>Stricto Sensu</strong><br />
+                  <br />
+                  Os cursos de pós-graduação stricto sensu do IFCE são ofertados
+                  nas modalidades de mestrado acadêmico e mestrado profissional
+                  e são destinados a portadores de diplomas de graduação e que
+                  desejam complementar, ampliar o nível de conhecimento teórico,
+                  prático e/ou empírico em diversas áreas do saber. O mestrado
+                  acadêmico é destinado a todos que tenham concluído o ensino
+                  superior e desejam obter titulação com grau de mestre, por
+                  meio de estudos voltados para o ensino e pesquisa direcionados
+                  para a carreira acadêmica. Já o mestrado profissional é
+                  destinado a todos que tenham concluído o ensino superior e
+                  desejam obter titulação com grau de mestre, por meio de
+                  estudos e técnicas diretamente voltadas ao desempenho de um
+                  alto nível de qualificação profissional, com vistas a atender
+                  à demanda de setores do mercado produtivo.
+                  <br /><br />
+                  <strong
+                    >CURSOS DE PÓS-GRADUAÇÃO LATO SENSU POR CAMPUS: </strong
+                  ><br />
+                  <br />
+                  <strong>ACARAÚ</strong><br /><br />
+                  Meio Ambiente e Desenvolvimento Regional <br />
+                  <br />
+                  <strong>ACOPIARA</strong><br />Ensino de Ciências e
+                  Matemática<br />
+                  <strong>BATURITÉ</strong><br />
+                  <br />
+                  Ciência de Alimentos
+                  <br />
+                  <br />
+                  <strong>CAMOCIM</strong><br />
+                  <br />
+                  Análise Ambiental
+                  <br />
+                  <br />
+                  <strong>CANINDÉ</strong><br />
+                  <br />
+                  Educação Física Escolar <br />
+                  Planejamento e Gestão de Políticas Públicas<br /><br />
+                  <strong>CAUCAIA</strong><br />
+                  <br />
+                  Ensino de Ciências Humanas <br />
+                  Ensino de Ciências da Natureza<br /><br />
+                  <strong>CEDRO</strong><br /><br />
+                  Docência do Ensino Superior<br /><br />
+                  <strong>CRATEÚS</strong><br /><br />
+                  Educação do Campo Estudos da Linguagem Ensino de Ciências da
+                  Natureza e Matemática <br /><br />
+                  <strong>CRATO</strong><br /><br />Produção Animal no Semiárido
+                  <br />
+                  Gestão e Manejo de Recursos Ambientais<br /><br />
+                  <strong>FORTALEZA</strong><br /><br />Formação Pedagógica para
+                  Docência na Educação Profissional e Tecnológica (
+                  semipresencial) <br />
+                  Docência na Educação Profissional, Científica e Tecnológica
+                  (semipresencial) <br />
+                  Elaboração e Gerenciamento de Projetos para a Gestão Municipal
+                  de Recursos Hídricos (semipresencial)<br /><br />
+                  <strong>IGUATU</strong><br /><br />
+                  Educação Profissional e Tecnológica<br /><br />
+                  <strong>JUAZEIRO DO NORTE</strong><br /><br />
+                  Ensino de Matemática com ênfase na formação de professores da
+                  Educação Básica<br /><br />
+                  <strong>LIMOEIRO DO NORTE</strong><br /><br />
+                  Gestão e Controle Ambiental <br />
+                  Saúde e Segurança Alimentar <br />
+                  Metodologias de Ensino para a Educação Básica<br /><br />
+                  <strong>MARANGUAPE</strong><br /><br />
+                  Ensino na Educação Básica<br /><br />
+                  <strong>MORADA NOVA</strong><br /><br />
+                  Gestão Ambiental<br /><br />
+                  <strong>SOBRAL</strong><br /><br />
+                  Gestão Ambiental <br />
+                  Gestão da Qualidade e Segurança dos Alimentos<br /><br />
+                  <strong>TABULEIRO DO NORTE</strong><br /><br />
+                  Teoria, Metodologia e Práticas de Ensino<br /><br />
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-    </nav>
-  </header>
+      <br><br>
+    </main>
 
-  <main>
-    <!-- corpo do site -->
-    <div class="container-fluid">
-      <div class="row">
-        <!-- informaçoes do site-#01 accordion -->
-        <h1>Nossos Cursos</h1>
-        <div class="accordion" id="accordionPanelsStayOpenExample">
-          <div class="accordion-item">
-            <h2 class="accordion-header">
-              <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
-                aria-controls="panelsStayOpen-collapseOne">
-                CURSOS TECNICOS
-              </button>
-            </h2>
-            <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
-              <div class="accordion-body">
-                <h4><strong>Técnicos concomitantes</strong></h4><br> Esta modalidade de curso destina-se a estudantes
-                que concluíram o Ensino Fundamental, sendo ofertados a quem está cursando o Ensino Médio tradicional e
-                que no contra turno irá cursar o ensino técnico no Instituto Federal. Este estudante só receberá o
-                diploma de técnico mediante a apresentação do certificado de conclusão do Ensino Médio. <br>
-                <br>
-                <strong>Agronegócio:</strong> <a
-                  href="http://ifce.edu.br/taua/campus_taua/cursos/tecnicos/concomitante/agronegocio">Tauá</a><br>
-                <strong>Agropecuária:</strong> Limoeiro do Norte
-                <br>
-                <strong>Automação Industrial:</strong> <a
-                  href="http://ifce.edu.br/maracanau/menu/cursos/tecnicos/concomitante/Automacao">Maracanaú</a>
-                <br>
-                <strong>Edificações:</strong> <a
-                  href="http://ifce.edu.br/menu-de-relevancia/nossos-cursos1/resolveuid/efdb8ae0d99d4ae99cff3fb9d264195a">Crateús</a>,
-                <a
-                  href="http://ifce.edu.br/menu-de-relevancia/nossos-cursos1/resolveuid/b3cdec6d82b34a6982767804bc5e3d1f">Morada
-                  Nova</a> e <a
-                  href="http://ifce.edu.br/menu-de-relevancia/nossos-cursos1/resolveuid/e49faaed5ff945a6b0e1d3a21dfbe9be">Quixadá</a>
-                <br>
-                <strong>Eletrotécnica:</strong> <a
-                  href="http://ifce.edu.br/cedro/campus_cedro/cursos/tecnicos/concomitante/eletrotecnica">Cedro</a>(Presencial
-                e EaD)<br>
-                <strong>Eletroeletrônica:</strong>Limoeiro do Norte e Caucaia<br>
-                <br>
-                <h4><strong>Técnicos integrados</strong></h4><br>
-                A modalidade de ensino integrado é aquela em que o aluno cursa o ensino médio e o técnico ao mesmo tempo
-                no IFCE. <br>
-                <br>
-                <strong>Agroindústria: </strong>Iguatu <br>
-                <strong>Agropecuária:
-                </strong>Crato, Iguatu Tauá e <a
-                  href="http://ifce.edu.br/umirim/campus_umirim/cursos/tecnicos/integrados/tecnicointegradoagropecuaria">Umirim</a>
-                <br>
-                <strong>Edificações: </strong>Edificações: Itapipoca, Juazeiro do Norte, <a
-                  href="http://ifce.edu.br/fortaleza/menu/cursos/tecnicos/integrados/edicacoes"> Fortaleza</a> e <a
-                  href="https://ifce.edu.br/quixada/campus_quixada/copy_of_cursos-ifce-campus-de-quixada">Quixadá</a>
-                <br>
-                <strong> Eletroeletrônica: </strong>Caucaia e Jaguaribe <br>
-                <strong> Eletrotécnica: </strong> <a
-                  href="http://ifce.edu.br/cedro/campus_cedro/cursos/tecnicos/integrados/eletrotecnica">Cedro</a>,
-                Juazeiro do Norte e <a
-                  href="http://ifce.edu.br/fortaleza/menu/cursos/tecnicos/integrados/eletrotecnica"> Fortaleza</a> <br>
-              </div>
-            </div>
-          </div>
-          <div class="accordion-item">
-            <h2 class="accordion-header">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
-                aria-controls="panelsStayOpen-collapseTwo">
-                Cursos Superiores
-              </button>
-            </h2>
-            <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
-              <div class="accordion-body">
-                <h4><strong>Licenciaturas</strong></h4><br>
-                Destinado a estudantes que concluíram o ensino médio (antigo segundo grau). São cursos de graduação
-                específicos para a formação de docentes. <br><br>
-                <strong>Artes Visuais: </strong><a
-                  href="https://ifce.edu.br/fortaleza/cursos/superiores/licenciatura/artes-visuais">Fortaleza</a><br>
-                <strong>Ciências Biológicas: </strong><a href="https://ifce.edu.br/acarau">Acaraú</a>,
-                <a href="https://ifce.edu.br/acopiara/menu/cursos/superiores/licenciatura/biologia">Acopiara</a>,
-                <a
-                  href="https://ifce.edu.br/menu-de-relevancia/nossos-cursos1/resolveuid/a64866ae13494ea5b245fcd0a0446566">Jaguaribe</a>
-                e
-                <a
-                  href="https://ifce.edu.br/paracuru/campus_paracuru/cursos/superiores/licenciatura/biologia"></a>Paracuru<br>
-                <strong>Educação Física: </strong><a
-                  href="https://ifce.edu.br/menu-de-relevancia/nossos-cursos1/resolveuid/fd5c29c89bd74397be472268c093980f">Canindé</a>,
-                <a href="https://ifce.edu.br/juazeirodonorte/campus_juazeiro/cursos">Juazeiro do Norte</a> e
-                <a href="https://ifce.edu.br/limoeirodonorte">Limoeiro do Norte</a> <br>
-                <strong>Educação Profissional Científica e Tecnológica:</strong><a
-                  href="https://ifce.edu.br/fortaleza/cursos">Fortaleza (EaD)</a> <br>
-                <strong>Física: </strong><a href="https://ifce.edu.br/acarau/menu/cursos">Acaraú</a>, Cedro,
-                <a
-                  href="https://ifce.edu.br/menu-de-relevancia/nossos-cursos1/resolveuid/5fb31a8802c34d3594b2f4be9142f55c">Crateús</a>
-                <a href="https://ifce.edu.br/fortaleza/cursos/superiores/licenciatura/fisica">Fortaleza</a>
-                <a
-                  href="https://ifce.edu.br/horizonte/campus_horizonte/cursos/superiores/licenciatura/fisica">Horizonte,</a>,
-                Itapipoca, Maranguape,
-                <a
-                  href="https://ifce.edu.br/menu-de-relevancia/nossos-cursos1/resolveuid/22fa364c66f247fa9f790df564d8faa4">Sobral</a>
-                e
-                <a
-                  href="https://ifce.edu.br/tiangua/campus_tiangua/cursos/superiores/licenciatura/Fisica">Tianguá</a><br>
-                <strong>Geografia: </strong><a
-                  href="https://ifce.edu.br/crateus/menu/cursos/superiores/licenciatura/geografia">Crateús</a>,
-                <a
-                  href="https://ifce.edu.br/iguatu/menu/cursos/superiores/licenciatura/licenciatura-em-geografia">Iguatu</a>
-                e
-                <a href="https://ifce.edu.br/quixada/campus_quixada/cursos/geografia">Quixadá</a><br>
-                <br>
-                <h4><strong>Tecnologias</strong></h4><br>
-                Cursos tecnológicos formam profissionais para atender a campos específicos do mercado de trabalho. Têm
-                duração média menor que a dos cursos de graduação tradicionais. <br>
-                <br>
-                <strong>Agroindústria: </strong><a href="https://ifce.edu.br/ubajara/Agroindustria">Ubajara</a><br>
-                <strong>Agronegócio: </strong><a
-                  href="https://ifce.edu.br/limoeirodonorte/campus_limoeiro/cursos">Limoeiro do Norte</a> e
-                <a href="https://ifce.edu.br/quixada/campus_quixada/cursos/agronegocio">Quixadá</a><br>
-                <strong>Alimentos: </strong><a href="https://ifce.edu.br/sobral/campus-sobral/cursos">Limoeiro do
-                  Norte</a> e
-                <a
-                  href="https://ifce.edu.br/menu-de-relevancia/nossos-cursos1/resolveuid/731a4d9de5d946ac924beeb9167b0e1d">Sobral</a><br>
-                <strong>Análise e Desenvolvimento de Sistemas: </strong><a
-                  href="https://ifce.edu.br/caninde">Canindé</a><br>
-                <strong>Automação Industrial: </strong><a
-                  href="https://ifce.edu.br/juazeirodonorte/campus_juazeiro/cursos">Juazeiro do Norte</a><br>
-              </div>
-            </div>
-          </div>
-          <div class="accordion-item">
-            <h2 class="accordion-header">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
-                aria-controls="panelsStayOpen-collapseThree">
-                Cursos de Pós-graduação
-              </button>
-            </h2>
-            <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse">
-              <div class="accordion-body">
-                <h5><strong>Apresentação</strong></h5><br>
-                O IFCE oferece cursos de pós-graduação nas modalidades lato sensu e stricto sensu. Conheça mais sobre
-                cada uma delas: <br>
-                <br>
-                <strong>Lato Sensu</strong><br>
-                <br>
-                Os cursos de pós-graduação lato sensu são destinados a portadores de diplomas de graduação e que desejam
-                obter atualização acadêmica ou profissional e o consequente progresso das competências obtidas na
-                graduação. No IFCE, essa modalidade contempla os cursos de especialização e de aperfeiçoamento.<br><br>
-                <strong>Stricto Sensu</strong><br>
-                <br>
-                Os cursos de pós-graduação stricto sensu do IFCE são ofertados nas modalidades de mestrado acadêmico e
-                mestrado profissional e são destinados a portadores de diplomas de graduação e que desejam complementar,
-                ampliar o nível de conhecimento teórico, prático e/ou empírico em diversas áreas do saber. O mestrado
-                acadêmico é destinado a todos que tenham concluído o ensino superior e desejam obter titulação com grau
-                de mestre, por meio de estudos voltados para o ensino e pesquisa direcionados para a carreira acadêmica.
-                Já o mestrado profissional é destinado a todos que tenham concluído o ensino superior e desejam obter
-                titulação com grau de mestre, por meio de estudos e técnicas diretamente voltadas ao desempenho de um
-                alto nível de qualificação profissional, com vistas a atender à demanda de setores do mercado produtivo.
-                <br><br>
-                <strong>CURSOS DE PÓS-GRADUAÇÃO LATO SENSU POR CAMPUS: </strong><br>
-                <br>
-                <strong>ACARAÚ</strong><br><br> Meio Ambiente e Desenvolvimento Regional <br>
-                <br>
-                <strong>ACOPIARA</strong><br>Ensino de Ciências e Matemática<br>
-                <strong>BATURITÉ</strong><br>
-                <br>
-                Ciência de Alimentos
-                <br>
-                <br>
-                <strong>CAMOCIM</strong><br>
-                <br>
-                Análise Ambiental
-                <br>
-                <br>
-                <strong>CANINDÉ</strong><br>
-                <br>
-                Educação Física Escolar <br> Planejamento e Gestão de Políticas Públicas<br><br>
-                <strong>CAUCAIA</strong><br>
-                <br>
-                Ensino de Ciências Humanas <br> Ensino de Ciências da Natureza<br><br>
-                <strong>CEDRO</strong><br><br>
-                Docência do Ensino Superior<br><br>
-                <strong>CRATEÚS</strong><br><br>
-                Educação do Campo
-                Estudos da Linguagem
-                Ensino de Ciências da Natureza e Matemática <br><br>
-                <strong>CRATO</strong><br><br>Produção Animal no Semiárido <br>
-                Gestão e Manejo de Recursos Ambientais<br><br>
-                <strong>FORTALEZA</strong><br><br>Formação Pedagógica para Docência na Educação Profissional e
-                Tecnológica ( semipresencial) <br>
-                Docência na Educação Profissional, Científica e Tecnológica (semipresencial) <br>
-                Elaboração e Gerenciamento de Projetos para a Gestão Municipal de Recursos Hídricos
-                (semipresencial)<br><br>
-                <strong>IGUATU</strong><br><br>
-                Educação Profissional e Tecnológica<br><br>
-                <strong>JUAZEIRO DO NORTE</strong><br><br>
-                Ensino de Matemática com ênfase na formação de professores da Educação Básica<br><br>
-                <strong>LIMOEIRO DO NORTE</strong><br><br>
-                Gestão e Controle Ambiental <br>
-                Saúde e Segurança Alimentar <br>
-                Metodologias de Ensino para a Educação Básica<br><br>
-                <strong>MARANGUAPE</strong><br><br>
-                Ensino na Educação Básica<br><br>
-                <strong>MORADA NOVA</strong><br><br>
-                Gestão Ambiental<br><br>
-                <strong>SOBRAL</strong><br><br>
-                Gestão Ambiental <br>
-                Gestão da Qualidade e Segurança dos Alimentos<br><br>
-                <strong>TABULEIRO DO NORTE</strong><br><br>
-                Teoria, Metodologia e Práticas de Ensino<br><br>
-              </div>
-            </div>
-          </div>
-        </div>
+    <footer style="text-align: center">
+      <div>
+        <strong>Endereço</strong>: Rua Estevão Remígio de Freitas,<br />
+        1145 - Monsenhor Otávio, Limoeiro do Norte - <br />
+        CE, 62930-000
       </div>
-    </div>
-  </main>
 
-  <footer style="text-align: center">
-    <div>
-      <strong>Endereço</strong>: Rua Estevão Remígio de Freitas,<br />
-      1145 - Monsenhor Otávio, Limoeiro do Norte - <br />
-      CE, 62930-000
-    </div>
-
-    <div>
-      <strong>REITOR</strong>:José Wally Mendonça Menezes <br />
-      Fone: (85) 3401.2302 <br />
-      E-mail: wally@ifce.edu.br <br>
-      <strong>Criador:</strong>Ramon Silva <br>
-      <strong>&copy;todos os direitos reservados</strong>
-    </div>
-  </footer>
-</body>
-
+      <div>
+        <strong>REITOR</strong>:José Wally Mendonça Menezes <br />
+        Fone: (85) 3401.2302 <br />
+        E-mail: wally@ifce.edu.br <br />
+        <strong>Criador:</strong>Ramon Silva <br />
+        <strong>&copy;todos os direitos reservados</strong>
+      </div>
+    </footer>
+  </body>
 </html>
