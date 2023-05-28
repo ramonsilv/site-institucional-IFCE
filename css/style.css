@@ -6,5 +6,6 @@
 }
 
 footer{
+    display: block;
     background-color: #7db687;
 }
