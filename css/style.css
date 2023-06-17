@@ -5,6 +5,13 @@
     background-color: #7db687;
 }
 
+/* PAGINA1 */
+.noticias{
+    background-color: #95d6a0;
+    padding: 5%;
+    border-radius: 10%;
+
+}
 footer{
     display: block;
     background-color: #7db687;
