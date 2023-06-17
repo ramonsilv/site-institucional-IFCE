@@ -5,11 +5,18 @@
     background-color: #7db687;
 }
 
-/* PAGINA1 */
+/* INDEX */
 .noticias{
     background-color: #95d6a0;
     padding: 5%;
-    border-radius: 10%;
+    border-radius: 20%;
+    margin-top: 2%;
+}
+
+.video{
+    background-color: #272727;
+    margin: 0;
+    padding: 0;
 
 }
 footer{
